@@ -7,7 +7,7 @@ export default function RecentActivity() {
         <h2 className="title-medium text-2xl">Recently Activity</h2>
       </div>
       <div className="p-5">
-        <div className="text-xs  text-gray-300 mb-2 mt-3">
+        <div className="text-xs  text-gray-300 mb-2 mt-1">
           10:40 AM, Fri 10 Sept 2021
         </div>
         <h3 className="title-medium text-nowrap">You Posted a New Job</h3>
