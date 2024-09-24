@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.stat-title {
-  width: 172px;
-  height: 28px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 28px;
-  text-align: left;
-}
-
 .stat-value {
   width: 172px;
   height: 28px;
@@ -48,19 +36,6 @@
   line-height: 42px;
   text-align: left;
 }
-.stat-card {
-  width: Fixed (204px) px;
-  height: Fixed (136px) px;
-  top: 166px;
-  left: 293px;
-  padding: 12px 12px 12px 20px;
-  gap: 16px;
-  opacity: 0px;
-}
-
-.metric-info {
-  padding: 20px 20px 20px 40px;
-}
 
 .title-medium {
   width: 166px;
@@ -92,10 +67,10 @@
   line-height: 28px;
   text-align: left;
 }
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
-;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -108,7 +83,6 @@
 body {
   color: var(--foreground);
   background: var(--background);
-
 }
 
 @layer utilities {
