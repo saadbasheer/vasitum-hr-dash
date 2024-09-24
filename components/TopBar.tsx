@@ -52,33 +52,35 @@ export default function Navbar() {
           <div className="flex items-center">
             <button className="p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FF5151]">
               <span className="sr-only">View notifications</span>
-              <Notification/>
+              <Notification />
             </button>
             <button className="ml-3 p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FF5151]">
               <span className="sr-only">View messages</span>
-              <Messages/>
+              <Messages />
             </button>
             <div className="ml-3 relative">
               <div>
-                <button
-                  className="flex items-center max-w-xs bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FF5151] "
-                  blue-500
-                  id="user-menu"
-                  aria-haspopup="true"
-                >
-                  <span className="sr-only">Open user menu</span>
-                  <Image
-                    className="h-8 w-8 rounded-full"
-                    width={50}
-                    height={50}
-                    src="/logo.png"
-                    alt="User avatar"
-                  />
-                  <span className="ml-2 text-sm font-medium text-gray-700 hidden sm:block">
-                    Saad Basheer
-                  </span>
-                  <ChevronDown className="ml-1 h-4 w-4 text-gray-400" />
-                </button>
+                <a href="https://saadb.me">
+                  <button
+                    className="flex items-center max-w-xs bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FF5151] "
+                    blue-500
+                    id="user-menu"
+                    aria-haspopup="true"
+                  >
+                    <span className="sr-only">Open user menu</span>
+                    <Image
+                      className="h-8 w-8 rounded-full"
+                      width={50}
+                      height={50}
+                      src="/logo.png"
+                      alt="User avatar"
+                    />
+                    <span className="ml-2 text-sm font-medium text-gray-700 hidden sm:block">
+                      Saad Basheer
+                    </span>
+                    <ChevronDown className="ml-1 h-4 w-4 text-gray-400" />
+                  </button>
+                </a>
               </div>
             </div>
           </div>
