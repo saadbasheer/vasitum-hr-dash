@@ -1,14 +1,14 @@
-import {
-  Briefcase,
-  Building2,
-  Calendar,
-  HeadphonesIcon,
- 
-  UserCircle,
-  Users,
-} from "lucide-react";
 import React from "react";
-import { Dashboard, Department, Employee, Logo, Recruitment, Schedule, Support, Settings} from "./ui/svgs";
+import {
+  Dashboard,
+  Department,
+  Employee,
+  Logo,
+  Recruitment,
+  Schedule,
+  Support,
+  Settings,
+} from "./ui/svgs";
 
 export default function Sidebar() {
   return (

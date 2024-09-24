@@ -1,6 +1,4 @@
 import React from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowUpIcon } from "lucide-react";
 import { Trend } from "./ui/svgs";
 
 interface CardData {
@@ -43,7 +41,7 @@ export default function Dashboard() {
 }
 
 function DashboardCard({ data }: { data: CardData }) {
-  const { title, value, breakdown, percentageChange, trend } = data;
+  const { title, value } = data;
 
   return (
     <div className="border-[#E0E0E0] border rounded-2xl w-full">

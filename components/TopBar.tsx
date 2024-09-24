@@ -1,8 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import { Menu, Search, Bell, MessageSquare, ChevronDown } from "lucide-react";
+import { Menu, Search, ChevronDown } from "lucide-react";
 
 import  { Messages, Notification } from "./ui/svgs";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -66,9 +67,11 @@ export default function Navbar() {
                   aria-haspopup="true"
                 >
                   <span className="sr-only">Open user menu</span>
-                  <img
+                  <Image
                     className="h-8 w-8 rounded-full"
-                    src="logo.png"
+                    width={50}
+                    height={50}
+                    src="/logo.png"
                     alt="User avatar"
                   />
                   <span className="ml-2 text-sm font-medium text-gray-700 hidden sm:block">
